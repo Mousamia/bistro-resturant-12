@@ -18,7 +18,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar max-w-screen-xl fixed z-10 bg-[#f0c103] text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -35,8 +35,8 @@ const Navbar = () => {
                         {navOptions}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Get started</a>
+                <div className="navbar-end ">
+                    <a className="btn bg-[#1d4280]">Get started</a>
                 </div>
             </div>
         </div>
