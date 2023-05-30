@@ -9,7 +9,7 @@ const PopularMenu = () => {
 
 
     useEffect(() => {
-        fetch('/public/data/menu.json')
+        fetch('/data/menu.json')
             .then(res => res.json())
             .then(data => {
                 const allItem = data;

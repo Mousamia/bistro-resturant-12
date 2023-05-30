@@ -19,9 +19,7 @@ const Menu = () => {
             <Cover heroImg={heroImg}
             title={"Our Menu"}>
             </Cover>
-            <PopularMenu></PopularMenu>
-            <PopularMenu></PopularMenu>
-            <PopularMenu></PopularMenu>
+           
         </div>
     );
 };
