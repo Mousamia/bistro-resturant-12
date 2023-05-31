@@ -10,6 +10,8 @@ const Navbar = () => {
         <li tabIndex={0}>
           <Link to={"/menu"}> Our Menu</Link>
         </li>
+        <li><Link to={"/order"}>Order</Link></li>
+
     </>
     return (
         <div>

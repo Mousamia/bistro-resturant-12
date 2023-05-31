@@ -7,11 +7,11 @@ import heroImg from '../../../assets/menu/banner3.jpg'
 import useMenu from '../../../hooks/useMenu';
 import MenuCategory from '../MenuCategory/MenuCategory';
 
-import dessertImg from '../../../assets/menu/dessert-bg.jpeg'
+import dessertImg from '../../../assets/menu/dessert.jpeg'
 import saladImg from '../../../assets/menu/salad-bg.jpg'
 import soupImg from '../../../assets/menu/soup-bg.jpg'
 import pizzaImg from '../../../assets/menu/pizza-bg.jpg'
-// import drinks from '../../../assets/menu/menu-bg.png'
+import menuImg from '../../../assets/menu/banner3.jpg'
 
 
 const Menu = () => {
@@ -23,10 +23,6 @@ const Menu = () => {
     const salad = menu.filter(item => item.category === "salad");
     const drinks = menu.filter(item => item.category === "drinks");
     const soup = menu.filter(item => item.category === "soup");
-    // console.log(popular);
-    console.log(offered);
-    console.log(dessertImg);
-
 
 
     return (
@@ -37,7 +33,7 @@ const Menu = () => {
                 <title>Bistro | Menu </title>
             </Helmet>
 
-            <Cover heroImg={heroImg}
+            <Cover img={menuImg}
                 title={"Our Menu"}>
             </Cover>
 

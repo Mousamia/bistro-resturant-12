@@ -6,6 +6,7 @@ import Cover from '../../Shared/Cover/Cover';
 
 const MenuCategory = ({ items, img, title }) => {
     console.log(items);
+    
     return (
         <div className='pt-8 '>
             {title && <Cover img={img}
