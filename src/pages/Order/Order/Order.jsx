@@ -9,13 +9,17 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import { useParams } from 'react-router-dom';
 
 
 const Order = () => {
     const [menu] = useMenu();
-    console.log(menu);
 
-    const [tabIndex, setTabIndex] = useState(0);
+    const categories = ["salad", "pizza", "soups", "deserts", "drinks"]
+    const { category } = useParams();
+
+    const initialIndex = categories.indexOf(category);
+    const [tabIndex, setTabIndex] = useState(initialIndex);
 
 
     const offered = menu.filter(item => item.category === "offered");

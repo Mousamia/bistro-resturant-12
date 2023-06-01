@@ -12,6 +12,7 @@ const MenuItem = ({ item }) => {
                 <p>{recipe}</p>
             </div>
             <p className='text-xl text-[#BB8506]'>{price}</p>
+           
 
         </div>
     );

@@ -52,7 +52,7 @@ const Menu = () => {
                 img={dessertImg}>
             </MenuCategory>
 
-            {/* Menu Page -> pizza item */}
+            {/* pizza Page -> pizza item */}
             <MenuCategory
                 items={pizza}
                 title={"Pizza"}

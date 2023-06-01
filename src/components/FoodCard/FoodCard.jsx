@@ -18,6 +18,7 @@ const FoodCard = ({item}) => {
                 </div>
                 <p className="text-xl bg-slate-800 text-white absolute right-4 top-0"> {price} </p>
             </div>
+            
         </div>
     );
 };
