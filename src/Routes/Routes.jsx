@@ -22,7 +22,17 @@ import Order from "../pages/Order/Order/Order";
             element: <Menu/>
         },
         {
+          path: 'order',
+          element: <Order/>
+      },
+
+       {
             path: 'order/:category',
+            element: <Order/>
+        },
+       
+        {
+            path: 'login',
             element: <Order/>
         },
       ]
